@@ -1,0 +1,655 @@
+/* ==========================================================================
+HTML5 Boilerplate styles -h5bp.com (generated via initializr.com)
+========================================================================== */
+html,button,input,select,textarea {
+	color: #222;
+}
+
+body {
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	-webkit-resize: vertical;
+	-moz-resize: vertical;
+	resize: vertical;
+}
+
+.chromeframe {
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+
+/* ===== Initializr Styles ==================================================
+Author:  Jonathan Verrecchia -verekia.com/initializr/responsive-template
+========================================================================== */
+body {
+	font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 5%;
+}
+
+/* ===================
+ALL
+=================== */
+.header-container {
+	border-bottom: 20px solid rgb(21, 54, 223);
+}
+
+.header-container {
+	background-color: rgb(64, 176, 252);
+}
+
+@keyframes "rock" {
+ from {
+    -webkit-transform: rotateZ(-2deg);
+   	-moz-transform: rotateZ(-2deg);
+   	-o-transform: rotateZ(-2deg);
+   	-ms-transform: rotateZ(-2deg);
+   	transform: rotateZ(-2deg);
+ }
+ to {
+    -webkit-transform: rotateZ(4deg);
+   	-moz-transform: rotateZ(4deg);
+   	-o-transform: rotateZ(4deg);
+   	-ms-transform: rotateZ(4deg);
+   	transform: rotateZ(4deg);
+ }
+
+}
+
+@-moz-keyframes rock {
+ from {
+   -moz-transform: rotateZ(-2deg);
+   transform: rotateZ(-2deg);
+ }
+ to {
+   -moz-transform: rotateZ(4deg);
+   transform: rotateZ(4deg);
+ }
+
+}
+
+@-webkit-keyframes "rock" {
+ from {
+   -webkit-transform: rotateZ(-2deg);
+   transform: rotateZ(-2deg);
+ }
+ to {
+   -webkit-transform: rotateZ(4deg);
+   transform: rotateZ(4deg);
+ }
+
+}
+
+@-ms-keyframes "rock" {
+ from {
+   -ms-transform: rotateZ(-2deg);
+   transform: rotateZ(-2deg);
+ }
+ to {
+   -ms-transform: rotateZ(4deg);
+   transform: rotateZ(4deg);
+ }
+
+}
+
+@-o-keyframes "rock" {
+ from {
+   -o-transform: rotateZ(-2deg);
+   transform: rotateZ(-2deg);
+ }
+ to {
+   -o-transform: rotateZ(4deg);
+   transform: rotateZ(4deg);
+ }
+
+}
+
+.main aside {
+	background-image: url('../img/Segelyacht_400w.svg');
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	width: 270px;
+	height: 350px;
+	margin-bottom: -20px; /* TO DO: 
+	need a way to overcome 5% margin set at .wrapper
+	but margin-right:  -7% causes the <body> bgcolor to appear
+	perhaps can use translate3d to nudge over, or positioning */
+
+-webkit-animation: rock 2s infinite ease-in-out alternate;
+	-moz-animation: rock 2s infinite ease-in-out alternate;
+	-ms-animation: rock 2s infinite ease-in-out alternate;
+	-o-animation: rock 2s infinite ease-in-out alternate;
+	animation: rock 2s infinite ease-in-out alternate;
+}
+
+.title {
+	color: white;
+}
+
+/* ==============
+MOBILE:  Menu
+============== */
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	display: block;
+	margin-bottom: 10px;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: rgb(21, 54, 223);
+}
+
+nav a:hover,nav a:visited {
+	color: white;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* ==============
+MOBILE:  Main
+============== */
+.main {
+	padding: 30px 0 0 0;
+}
+
+.main article h1 {
+	font-size: 2em;
+}
+
+.main aside {
+	color: white;
+	padding: 0; /* slightly different rocking for the boat
+	on mobile, as it's not floating right anymore */
+
+-webkit-transform-origin: 55% 50%;
+	-moz-transform-origin: 55% 50%;
+	-o-transform-origin: 55% 50%;
+	-ms-transform-origin: 55% 50%;
+	transform-origin: 55% 50%;
+}
+
+.footer-container footer {
+	background-color: rgb(0,136,255);
+	padding: 20px 0; /*    -webkit-border-image:  url('../img/bluewaves_border.svg') 50 80 50 80 stretch;
+	
+	border-bottom: none;
+	
+	border-left: none;
+	
+	border-right: none;
+	
+	 */
+}
+
+/* ===============
+ALL:  IE Fixes
+=============== */
+.ie7 .title {
+	padding-top: 20px;
+}
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+body {
+	background-color: rgb(0,136,255);
+}
+
+.main-container {
+	background-color: white;
+}
+
+@keyframes "oceanrise" {
+ to {
+    -webkit-transform: scale(1,1.4);
+   	-moz-transform: scale(1,1.4);
+   	-o-transform: scale(1,1.4);
+   	-ms-transform: scale(1,1.4);
+   	transform: scale(1,1.4);
+ }
+
+}
+
+@-moz-keyframes oceanrise {
+ to {
+   -moz-transform: scale(1,1.4);
+   transform: scale(1,1.4);
+ }
+
+}
+
+@-webkit-keyframes "oceanrise" {
+ to {
+   -webkit-transform: scale(1,1.4);
+   transform: scale(1,1.4);
+ }
+
+}
+
+@-ms-keyframes "oceanrise" {
+ to {
+   -ms-transform: scale(1,1.4);
+   transform: scale(1,1.4);
+ }
+
+}
+
+@-o-keyframes "oceanrise" {
+ to {
+   -o-transform: scale(1,1.4);
+   transform: scale(1,1.4);
+ }
+
+}
+
+@keyframes "wavespass" {
+ from {
+    background-position: 0% 0%;
+ }
+ to {
+    background-position: -3% 0%;
+ }
+
+}
+
+@-moz-keyframes wavespass {
+ from {
+   background-position: 0% 0%;
+ }
+ to {
+   background-position: -3% 0%;
+ }
+
+}
+
+@-webkit-keyframes "wavespass" {
+ from {
+   background-position: 0% 0%;
+ }
+ to {
+   background-position: -3% 0%;
+ }
+
+}
+
+@-ms-keyframes "wavespass" {
+ from {
+   background-position: 0% 0%;
+ }
+ to {
+   background-position: -3% 0%;
+ }
+
+}
+
+@-o-keyframes "wavespass" {
+ from {
+   background-position: 0% 0%;
+ }
+ to {
+   background-position: -3% 0%;
+ }
+
+}
+
+.waves-container {
+	background-color: white;
+	height: 24px;
+}
+
+.waves-x,.waves-y {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	height: 26.608px;
+	background: url('../img/bluewaves_one.svg') repeat-x transparent !important;
+}
+
+.waves-x {
+	-webkit-animation: wavespass 2s infinite linear alternate forwards;
+	-moz-animation: wavespass 2s infinite linear alternate forwards;
+	-ms-animation: wavespass 2s infinite linear alternate forwards;
+	-o-animation: wavespass 2s infinite linear alternate forwards;
+	animation: wavespass 2s infinite linear alternate forwards;
+}
+
+@keyframes "wavesrise" {
+ from {
+    -webkit-transform: translate3d(0,-10px, 0);
+   	-moz-transform: translate3d(0,-10px, 0);
+   	-o-transform: translate3d(0,-10px, 0);
+   	-ms-transform: translate3d(0,-10px, 0);
+   	transform: translate3d(0,-10px, 0);
+ }
+ to {
+    -webkit-transform: translate3d(0,10px,0);
+   	-moz-transform: translate3d(0,10px,0);
+   	-o-transform: translate3d(0,10px,0);
+   	-ms-transform: translate3d(0,10px,0);
+   	transform: translate3d(0,10px,0);
+ }
+
+}
+
+@-moz-keyframes wavesrise {
+ from {
+   -moz-transform: translate3d(0,-10px, 0);
+   transform: translate3d(0,-10px, 0);
+ }
+ to {
+   -moz-transform: translate3d(0,10px,0);
+   transform: translate3d(0,10px,0);
+ }
+
+}
+
+@-webkit-keyframes "wavesrise" {
+ from {
+   -webkit-transform: translate3d(0,-10px, 0);
+   transform: translate3d(0,-10px, 0);
+ }
+ to {
+   -webkit-transform: translate3d(0,10px,0);
+   transform: translate3d(0,10px,0);
+ }
+
+}
+
+@-ms-keyframes "wavesrise" {
+ from {
+   -ms-transform: translate3d(0,-10px, 0);
+   transform: translate3d(0,-10px, 0);
+ }
+ to {
+   -ms-transform: translate3d(0,10px,0);
+   transform: translate3d(0,10px,0);
+ }
+
+}
+
+@-o-keyframes "wavesrise" {
+ from {
+   -o-transform: translate3d(0,-10px, 0);
+   transform: translate3d(0,-10px, 0);
+ }
+ to {
+   -o-transform: translate3d(0,10px,0);
+   transform: translate3d(0,10px,0);
+ }
+
+}
+
+.waves-y {
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-o-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+
+	-webkit-animation: oceanrise 2s infinite linear alternate forwards;
+	-moz-animation: oceanrise 2s infinite linear alternate forwards;
+	-ms-animation: oceanrise 2s infinite linear alternate forwards;
+	-o-animation: oceanrise 2s infinite linear alternate forwards;
+	animation: oceanrise 2s infinite linear alternate forwards;
+	position: relative;
+	top: -26.608px;
+	left: -70px;
+	background-position: -24% 100%;
+}
+
+/* ==========================================================================
+Media Queries
+========================================================================== */
+@media only screen and (min-width: 480px) {
+	/* ====================
+	INTERMEDIATE:  Menu
+	==================== */
+nav a {
+	float: left;
+	width: 27%;
+	margin: 0 1.7%;
+	padding: 25px 2%;
+	margin-bottom: 0;
+}
+
+nav li:first-child a {
+	margin-left: 0;
+}
+
+nav li:last-child a {
+	margin-right: 0;
+}
+
+/* ========================
+	INTERMEDIATE:  IE Fixes
+	======================== */
+nav ul li {
+	display: inline;
+}
+
+.oldie nav a {
+	margin: 0 0.7%;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+	/* ====================
+	WIDE:  CSS3 Effects
+	==================== */
+.header-container,.main aside {
+	/* sailboat WIDE styles*/
+
+-webkit-transform-origin: 90% 100%;
+	-moz-transform-origin: 90% 100%;
+	-o-transform-origin: 90% 100%;
+	-ms-transform-origin: 90% 100%;
+	transform-origin: 90% 100%;
+}
+
+/* ============
+	WIDE:  Menu
+	============ */
+.title {
+	float: left;
+}
+
+nav {
+	float: right;
+	width: 38%;
+}
+
+/* ============
+	WIDE:  Main
+	============ */
+.main article {
+	float: left;
+	width: 57%;
+}
+
+.main aside {
+	float: right;
+}
+
+}
+
+@media only screen and (min-width: 1140px) {
+	/* ===============
+	Maximal Width
+	=============== */
+.wrapper {
+	width: 1026px; /* 1140px -10% for margins */
+margin: 0 auto;
+}
+
+}
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+.ir {
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
+	*text-indent: -9999px;
+}
+
+.ir:before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 150%;
+}
+
+.hidden {
+	display: none !important;
+	visibility: hidden;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+/* ==========================================================================
+Print styles
+========================================================================== */
+@media print {
+	* {
+	background: transparent !important;
+	color: #000 !important; /* Black prints faster:  h5bp.com/s */
+
+-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+
+a,a:visited {
+	text-decoration: underline;
+}
+
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+
+/*
+	 * Don't show links for images, or javascript/internal links
+	 */
+.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after {
+	content: "";
+}
+
+pre,blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+
+thead {
+	display: table-header-group; /* h5bp.com/t */
+}
+
+tr,img {
+	page-break-inside: avoid;
+}
+
+img {
+	max-width: 100% !important;
+}
+
+@page {
+	margin: 0.5cm;
+}
+
+p,h2,h3 {
+	orphans: 3;
+	widows: 3;
+}
+
+h2,h3 {
+	page-break-after: avoid;
+}
+
+}

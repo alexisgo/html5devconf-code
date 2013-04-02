@@ -1,0 +1,25 @@
+ body { margin: 0; }
+  form {
+    width: 96%;
+    height: 5em;
+    padding: 2%;
+    background-color: darkblue;
+  }
+  form h3 { 
+    color: white; 
+    font-family: Helvetica, Arial, sans-serif; 
+    font-weight: normal;
+    text-shadow: 2px 2px 3px #434444;
+  }
+  form.second-form { background-color: gray;}
+  form.grow-left {
+    text-align:right;
+  }
+  .search-field {
+    -webkit-transition: width 0.8s;
+    width: 10em;      
+  }
+  
+  .search-field:focus {
+    width: 15em;
+  }
