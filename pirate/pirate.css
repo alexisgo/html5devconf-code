@@ -67,7 +67,7 @@
   .pirate {
     height: 200px;
     width: 178px;
-    background: url('images/pirate-head.svg');
+    background: url('pirate-head.svg');
     background-size: cover;
   }
   
