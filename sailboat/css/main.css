@@ -149,6 +149,7 @@ ALL
 	background-size: cover;
 	width: 270px;
 	height: 350px;
+
 	margin-bottom: -20px; /* TO DO: 
 	need a way to overcome 5% margin set at .wrapper
 	but margin-right:  -7% causes the <body> bgcolor to appear
@@ -208,11 +209,14 @@ MOBILE:  Main
 	padding: 0; /* slightly different rocking for the boat
 	on mobile, as it's not floating right anymore */
 
--webkit-transform-origin: 55% 50%;
-	-moz-transform-origin: 55% 50%;
-	-o-transform-origin: 55% 50%;
-	-ms-transform-origin: 55% 50%;
-	transform-origin: 55% 50%;
+	width: 150px;
+	height: 200px;
+
+-webkit-transform-origin: 55% 100%;
+	-moz-transform-origin: 55% 100%;
+	-o-transform-origin: 55% 100%;
+	-ms-transform-origin: 55% 100%;
+	transform-origin: 55% 100%;
 }
 
 .footer-container footer {
@@ -447,6 +451,7 @@ body {
 /* ==========================================================================
 Media Queries
 ========================================================================== */
+
 @media only screen and (min-width: 480px) {
 	/* ====================
 	INTERMEDIATE:  Menu
@@ -485,6 +490,7 @@ nav ul li {
 	WIDE:  CSS3 Effects
 	==================== */
 .header-container,.main aside {
+  
 	/* sailboat WIDE styles*/
 
 -webkit-transform-origin: 90% 100%;
@@ -516,6 +522,9 @@ nav {
 
 .main aside {
 	float: right;
+	width: 270px;
+	height: 350px;
+  
 }
 
 }
