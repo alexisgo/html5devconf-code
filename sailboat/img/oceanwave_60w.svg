@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60.000004"
+   height="52.355473"
+   id="svg4817"
+   version="1.1"
+   inkscape:version="0.48.1 r9760"
+   sodipodi:docname="oceanwave.svg">
+  <defs
+     id="defs4819">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4825" />
+    <inkscape:perspective
+       id="perspective4806"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       y2="753.19452"
+       x2="-612.28503"
+       y1="753.19452"
+       x1="-663.56348"
+       gradientTransform="matrix(3.5093941,0,0,3.5093941,2255.1563,-2073.0371)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4370"
+       xlink:href="#linearGradient3648-4"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3648-4">
+      <stop
+         style="stop-color:#1fc0e7;stop-opacity:1;"
+         offset="0"
+         id="stop3650-8" />
+      <stop
+         id="stop3656-8"
+         offset="1"
+         style="stop-color:#0bc343;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       y2="753.19452"
+       x2="-612.28503"
+       y1="753.19452"
+       x1="-663.56348"
+       gradientTransform="matrix(1.1700832,0,0,1.1700832,1124.3947,-361.79524)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4815"
+       xlink:href="#linearGradient3648-4"
+       inkscape:collect="always" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-457.25588"
+     inkscape:cy="-10.965132"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1276"
+     inkscape:window-height="756"
+     inkscape:window-x="4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata4822">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-347.97017,-493.3273)">
+    <path
+       id="path3695"
+       style="fill:url(#linearGradient4815);fill-opacity:1;stroke:none"
+       d="m 365.88326,503.39204 c 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 0,0 10e-6,3e-5 -3e-5,5e-5 -5e-5,5e-5 0.0161,0.0458 -0.0562,0.0566 -0.0817,0.0823 -0.88855,-1.48527 0.9034,-2.05515 2.29847,-2.33442 5.99975,-0.0607 8.38949,7.97156 8.33741,12.64337 -0.17387,15.59503 -15.18254,27.04597 -28.46722,31.89943 l 59.47621,-0.21411 c 3.52913,-14.93089 -11.3707,-45.92758 -26.79654,-51.18844 -5.19676,-1.77231 -14.27608,-1.56409 -16.2999,4.92736 -0.42192,1.35329 -0.34485,3.76609 1.36803,4.24763"
+       sodipodi:nodetypes="ccccccccccsccssc"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
