@@ -364,72 +364,6 @@ body {
 	animation: wavespass 2s infinite linear alternate forwards;
 }
 
-@keyframes "wavesrise" {
- from {
-    -webkit-transform: translate3d(0,-10px, 0);
-   	-moz-transform: translate3d(0,-10px, 0);
-   	-o-transform: translate3d(0,-10px, 0);
-   	-ms-transform: translate3d(0,-10px, 0);
-   	transform: translate3d(0,-10px, 0);
- }
- to {
-    -webkit-transform: translate3d(0,10px,0);
-   	-moz-transform: translate3d(0,10px,0);
-   	-o-transform: translate3d(0,10px,0);
-   	-ms-transform: translate3d(0,10px,0);
-   	transform: translate3d(0,10px,0);
- }
-
-}
-
-@-moz-keyframes wavesrise {
- from {
-   -moz-transform: translate3d(0,-10px, 0);
-   transform: translate3d(0,-10px, 0);
- }
- to {
-   -moz-transform: translate3d(0,10px,0);
-   transform: translate3d(0,10px,0);
- }
-
-}
-
-@-webkit-keyframes "wavesrise" {
- from {
-   -webkit-transform: translate3d(0,-10px, 0);
-   transform: translate3d(0,-10px, 0);
- }
- to {
-   -webkit-transform: translate3d(0,10px,0);
-   transform: translate3d(0,10px,0);
- }
-
-}
-
-@-ms-keyframes "wavesrise" {
- from {
-   -ms-transform: translate3d(0,-10px, 0);
-   transform: translate3d(0,-10px, 0);
- }
- to {
-   -ms-transform: translate3d(0,10px,0);
-   transform: translate3d(0,10px,0);
- }
-
-}
-
-@-o-keyframes "wavesrise" {
- from {
-   -o-transform: translate3d(0,-10px, 0);
-   transform: translate3d(0,-10px, 0);
- }
- to {
-   -o-transform: translate3d(0,10px,0);
-   transform: translate3d(0,10px,0);
- }
-
-}
-
 .waves-y {
 	-webkit-transform-origin: 50% 100%;
 	-moz-transform-origin: 50% 100%;
@@ -442,11 +376,14 @@ body {
 	-ms-animation: oceanrise 2s infinite linear alternate forwards;
 	-o-animation: oceanrise 2s infinite linear alternate forwards;
 	animation: oceanrise 2s infinite linear alternate forwards;
+
 	position: relative;
 	top: -26.608px;
 	left: -70px;
 	background-position: -24% 100%;
 }
+
+
 
 /* ==========================================================================
 Media Queries
