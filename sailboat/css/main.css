@@ -349,9 +349,9 @@ body {
 }
 
 .waves-x,.waves-y {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
 	height: 26.608px;
 	background: url('../img/bluewaves_one.svg') repeat-x transparent !important;
 }
